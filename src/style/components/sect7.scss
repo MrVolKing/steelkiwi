@@ -52,7 +52,6 @@
                 color: #171717;
             }
         }
-
     }
 
     .swiper-testimonials-button-prev, .swiper-testimonials-button-next{
@@ -69,7 +68,6 @@
     .swiper-testimonials-button-prev{
         background-image: url(../images/arrowleft_g.png);
         left: 0;
-        
     }
 
     .swiper-testimonials-button-next{
@@ -80,6 +78,7 @@
     .swiper-pagination{
         left: 0;
         bottom: 0;
+
         .swiper-pagination-bullet{
             margin-right: rem(30);
             width: rem(10);
@@ -90,13 +89,12 @@
             opacity: 1;
             outline: none;
         }
+
         .swiper-pagination-bullet-active{
             background-color: $brand_color;
             border: none;
         }
     }
-    
-
 }
 
 
@@ -111,6 +109,5 @@
         .swiper-testimonials-button-prev, .swiper-testimonials-button-next{
             display: none;
         }
-        
     }
 }

@@ -9,19 +9,10 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        // padding: 0 rem(205);
     }
 
     &__title {
         margin-bottom: rem(29);
-        // h1{
-        //     font-weight: 500;
-        //     line-height: rem(45);
-        //     font-size: rem(38);
-        //     text-align: center;
-        //     letter-spacing: rem(2);
-        //     color: $white;
-        // }
     }
 
     &__desc{
@@ -32,17 +23,12 @@
         display: flex;
         justify-content: center;
         
-    }
-
-    
-    
+    } 
 }
 
 
 @media screen and (max-width:769px){
     .sect1{
-        padding: 160px 0 0 0 ;
-        // height: auto;
-        
+        padding: 160px 0 0 0;
     }
 }

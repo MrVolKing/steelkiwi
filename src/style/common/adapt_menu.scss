@@ -1,5 +1,4 @@
-    // adapt menu
-
+// adapt menu
 
 @media screen and (max-width:769px){
     .adaptmenu{
@@ -23,11 +22,6 @@
             align-items: flex-start;
         }
     
-        &__content{
-            display: flex;
-            flex-direction: column;
-            padding: 30px 0;
-        } 
     }
 
     .close{
