@@ -1,0 +1,96 @@
+.footer{
+    background-color: #4F5D75;
+    padding: rem(45) 0 rem(81) 0;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link{
+        display: flex;
+        flex-direction: column;
+        a{
+            font-weight: normal;
+            line-height: rem(28);
+            font-size: rem(16);
+            color: $white;
+        }
+    }
+
+    &__item{
+        display: flex;
+    }
+
+    &__left{
+        padding-top: rem(5);
+    }
+
+    &__icn{
+        img{
+            width: rem(19);
+            height: rem(22);
+        }
+    }
+
+    .phone{
+        position: relative;
+        img{
+            width: rem(14.6);
+            height: rem(22);
+            z-index: 200;
+            position: relative;
+        }
+        &:before{
+            content: "";
+            width: rem(9);
+            height: rem(9);
+            border-radius: 50%;
+            background-color: $brand_color;
+            position: absolute;
+            z-index: 100;
+            bottom: rem(6);
+            left: rem(-4);
+        }
+    }
+
+    &__right{
+        display: flex;
+        flex-direction: column;
+        padding-left: rem(19);
+        a, span{
+            font-weight: normal;
+            line-height: rem(28);
+            font-size: rem(16);
+            color: $white;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:769px){
+    .footer{
+        padding-bottom: 30px;
+
+        &__content{
+            flex-wrap: wrap;
+        }
+
+        &__link, &__item{
+            margin-bottom: 30px;
+            margin: 0 10px 30px 10px; 
+        }
+        
+    }
+}
+
+@media screen and (max-width:500px){
+    .footer{
+
+        &__content{
+            flex-wrap: wrap;
+            justify-content: center;
+        }        
+    }
+}

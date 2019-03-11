@@ -1,0 +1,132 @@
+.sect4{
+    padding: rem(90) 0 rem(80) 0;
+    background-color: #F2F2F2;
+
+    &__title{
+      text-align: center;
+      margin-bottom: rem(80);
+    }
+
+    &__blockblocks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+  
+    //circles
+
+    .blockitem {
+        display: inline-block;
+        position: relative;
+
+        &__name{
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+            top: rem(127);
+            span{
+                font-weight: 600;
+                line-height: rem(24);
+                font-size: rem(14);
+                text-align: center;
+                letter-spacing: rem(0.636364px);
+                text-transform: uppercase;
+                color: $maintext;
+            }
+        }
+    }
+  
+    .circles {
+        fill: none;
+        stroke-width: rem(10);
+        width: rem(230);
+        height: rem(230);
+
+        &__first {
+            stroke: $white;
+        }
+
+        &__second {
+            stroke: $brand_color;
+            stroke-dasharray: .0010 282.6;
+            transition: all 1s;
+        }
+    }
+
+
+    .circle-0-active {
+        stroke-dasharray: .001 282.6;
+    }
+    .circle-10-active {
+        stroke-dasharray: 28.26 282.6;
+    }
+    .circle-15-active {
+        stroke-dasharray: 42.39 282.6;
+    }
+    .circle-20-active {
+        stroke-dasharray: 56.52 282.6;
+    }
+    .circle-25-active {
+        stroke-dasharray: 70.65 282.6;
+    }
+    .circle-30-active {
+        stroke-dasharray: 84.78 282.6;
+    }
+    .circle-35-active {
+        stroke-dasharray: 98.91 282.6;
+    }
+    .circle-40-active {
+        stroke-dasharray: 113.04 282.6;
+    }
+    .circle-45-active {
+        stroke-dasharray: 127.17 282.6;
+    }
+    .circle-50-active {
+        stroke-dasharray: 141.3 282.6;
+    }
+    .circle-55-active {
+        stroke-dasharray: 155.43 282.6;
+    }
+    .circle-60-active {
+        stroke-dasharray: 169.56 282.6;
+    }
+    .circle-65-active {
+        stroke-dasharray: 183.69 282.6;
+    }
+    .circle-70-active {
+        stroke-dasharray: 197.82 282.6;
+    }
+    .circle-75-active {
+        stroke-dasharray: 211.95 282.6;
+    }
+    .circle-80-active {
+        stroke-dasharray: 226.08 282.6;
+    }
+    .circle-85-active {
+        stroke-dasharray: 240.21 282.6;
+    }
+    .circle-90-active {
+        stroke-dasharray: 254.34 282.6;
+    }
+    .circle-95-active {
+        stroke-dasharray: 268.47 282.6;
+    }
+    .circle-100-active {
+        stroke-dasharray: 282.6 282.6;
+    }
+      
+}
+
+
+
+
+@media screen and (max-width:769px){
+    .sect4{
+        
+        &__blockblocks{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

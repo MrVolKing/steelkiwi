@@ -1,0 +1,14 @@
+<svg width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn 2">
+<g id="icn">
+<rect id="Rectangle 6" x="2" y="1" width="14.6531" height="14.6531" stroke="#FA3F40" stroke-width="2"/>
+<rect id="Rectangle 6_2" x="32.3674" y="1" width="14.6531" height="14.6531" rx="3" stroke="#FA3F40" stroke-width="2"/>
+<path id="Line" d="M9.32652 16.1632V29.8775" stroke="#FA3F40" stroke-linecap="square" stroke-dasharray="5"/>
+<path id="Line_2" d="M39.6939 16.1632V29.8775" stroke="#FA3F40" stroke-linecap="square" stroke-dasharray="5"/>
+<path id="Line_3" d="M30.8776 8.32654H17.1633" stroke="#FA3F40" stroke-linecap="square" stroke-dasharray="3 1 1"/>
+<path id="Line_4" d="M30.8776 39.6735H17.1633" stroke="#FA3F40" stroke-linecap="square" stroke-dasharray="3 1 1"/>
+<path id="Polygon" fill-rule="evenodd" clip-rule="evenodd" d="M9.32653 30.3673L16.6735 34.5306V42.8571L9.32653 47.0204L1.97959 42.8571V34.5306L9.32653 30.3673Z" stroke="#FA3F40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval 10" fill-rule="evenodd" clip-rule="evenodd" d="M39.6939 47.0204C44.2925 47.0204 48.0204 43.2925 48.0204 38.6938C48.0204 34.0952 44.2925 30.3673 39.6939 30.3673C35.0953 30.3673 31.3674 34.0952 31.3674 38.6938C31.3674 43.2925 35.0953 47.0204 39.6939 47.0204Z" stroke="#FA3F40" stroke-width="2"/>
+</g>
+</g>
+</svg>

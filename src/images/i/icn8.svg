@@ -1,0 +1,14 @@
+<svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn 8">
+<g id="5">
+<rect id="Rectangle 5" x="47" y="17" width="4" height="18" stroke="#030303" stroke-width="2"/>
+<path id="Rectangle 8" d="M51 35.5194V16.4806L59 10.0806V41.9194L51 35.5194Z" stroke="#030303" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Rectangle 4" x="1" y="7" width="46" height="38" rx="3" stroke="#030303" stroke-width="2"/>
+<rect id="Rectangle 4_2" x="9.5" y="16.5" width="29" height="19" rx="1.5" stroke="#030303"/>
+<path id="Rectangle 9" d="M12 1H36C37.6569 1 39 2.34315 39 4V7H9V4C9 2.34315 10.3431 1 12 1Z" stroke="#030303" stroke-width="2"/>
+<rect id="Rectangle 9_2" x="1" y="-1" width="22" height="4" transform="matrix(1 0 0 -1 12 48)" stroke="#030303" stroke-width="2"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M18.0098 26C18.0098 35.5737 10 35 10 35V30C10 30 12.9136 30 12.9136 26C12.9136 22 10 22 10 22V17C10 17 18.0098 16.4262 18.0098 26Z" fill="white"/>
+<path id="Combined Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M30 26C30 35.5737 38.0098 35 38.0098 35V30C38.0098 30 35.0962 30 35.0962 26C35.0962 22 38.0098 22 38.0098 22V17C38.0098 17 30 16.4262 30 26Z" fill="white"/>
+</g>
+</g>
+</svg>

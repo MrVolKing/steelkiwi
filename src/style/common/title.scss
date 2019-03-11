@@ -1,0 +1,19 @@
+.title{
+    font-weight: 500;
+    line-height: rem(45);
+    font-size: rem(38);
+    text-align: center;
+    letter-spacing: rem(2);
+    color: $maintext;
+    &_white{
+        color: $white;
+    }
+}
+
+
+@media screen and (max-width:769px){
+    .title{
+        line-height: 32px;
+        font-size: 32px;
+    }
+}

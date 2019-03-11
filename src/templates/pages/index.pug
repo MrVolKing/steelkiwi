@@ -1,0 +1,493 @@
+extends ../template
+
+block varibles
+    - var title = "title"
+
+block content
+   
+    .content
+        include ../common/header.pug
+
+        section.sect1
+            .wrapper
+                .sect1__content
+                    .sect1__title   
+                        h1.title.title_white Title for Client
+
+                    .sect1__desc
+                        p.desc.desc_white Important description of service for customers with short explanations.<br> Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales<br> pulvinar tempor.
+                    
+                    .sect1__button
+                        button.button Create Session   
+                
+                
+        section.sect2
+            .wrapper
+                .sect2__content
+                    .sect2__title
+                        h2.title How It Works
+
+                    .sect2__blockblocks
+                        .block
+                            .block__top
+                                .block__img
+                                    img(src="./images/i/icn1.svg", alt="")
+                                span 1
+                            .block__bottom
+                                span Scheduling wizard designed specifically for your event. 
+                            .block__step
+                                span step
+
+                        .block
+                            .block__top
+                                .block__img
+                                    img(src="./images/i/icn2.svg", alt="")
+                                span 2
+                            .block__bottom
+                                span Matching algorithm ensures the right coverage.
+                            .block__step
+                                span step
+
+                        .block
+                            .block__top
+                                .block__img
+                                    img(src="./images/i/icn3.svg", alt="")
+                                span 3
+                            .block__bottom
+                                span Pay online quick, easily and securetly through the nexdep platform.
+                            .block__step
+                                span step
+
+                    .sect2__desc
+                        p.desc There are many variations of passages of Lorem Ipsum available, but the majority have<br> suffered alteration in some form, by injected humour, or randomised words which don’t look even<br> slightly believable.
+
+                    .sect2__button
+                        button.button.button_black More Details
+
+
+        section.sect3
+            .wrapper
+                .sect3__content
+                    .sect3__title
+                        h2.title.title_white Our Sevices
+                    .sect3__buttons
+                        button.btn_switching.btn_deposition.btn_active Deposition
+                        div
+                        button.btn_switching.btn_arbitration Arbitration
+                        div
+                        button.btn_switching.btn_hearing Hearing
+                        div
+                        button.btn_switching.btn_meeting Meeting/Auction
+                        div
+                        button.btn_switching.btn_video Video only
+                        div
+                        button.btn_switching.btn_interpreting Interpreting only
+                    .sect3__blocks
+
+                        .blockitem.deposition_block.blockitem_active
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+                                
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping 
+
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+
+                        .blockitem.arbitration_block
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+                                
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping 
+
+                        .blockitem.hearing_block
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping
+
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+                                
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+
+                        .blockitem.meeting_block
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+                                
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+                            
+                        .blockitem.video_block
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+
+                        .blockitem.interpreting_block
+                            //- .blockitem__top
+                            //-     button.btn_switching Deposition
+                            .blockitem__bottom
+                                .blockitem__item
+                                    img.blockitem__icn2(src="./images/i/icn5.svg", alt="")
+                                    span Realtime 
+
+                                .blockitem__item
+                                    img.blockitem__icn3(src="./images/i/icn6.svg", alt="")
+                                    span Video Streaming
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn4(src="./images/i/icn7.svg", alt="")
+                                    span Rough Draft
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn5(src="./images/i/icn8.svg", alt="")
+                                    span Videotaping
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn6(src="./images/i/icn9.svg", alt="")
+                                    span Interpreting
+                                    
+                                .blockitem__item
+                                    img.blockitem__icn1(src="./images/i/icn4.svg", alt="")
+                                    span Transcription
+                                
+                                
+                                
+                                
+
+                                
+                                 
+
+                                
+
+
+        section.sect4
+            .wrapper
+                .sect4__content
+                    .sect4__title
+                        h2.title NexDep in Numbers
+
+                    .sect4__blockblocks
+
+                        .blockitem
+                            .blockitem__name
+                                span Lorem Ipsum
+                            svg.circles.circles1(viewbox='0 0 110 110')
+                                circle.circles__first(r='45', cx='50%', cy='50%', fill='none')
+                                circle.circles__second(
+                                    r='45' 
+                                    cx='50%' 
+                                    cy='50%' 
+                                    transform='rotate(-90 55 55)'
+                                    
+                                )
+                        
+                        .blockitem
+                            .blockitem__name
+                                span Lorem Ipsum
+                            svg.circles.circles2(viewbox='0 0 110 110')
+                                circle.circles__first(r='45', cx='50%', cy='50%', fill='none')
+                                circle.circles__second(
+                                    r='45' 
+                                    cx='50%' 
+                                    cy='50%' 
+                                    transform='rotate(-90 55 55)'
+                                )
+                        
+                        
+                        .blockitem
+                            .blockitem__name
+                                span Lorem Ipsum
+                            svg.circles.circles3(viewbox='0 0 110 110')
+                                circle.circles__first(r='45', cx='50%', cy='50%', fill='none')
+                                circle.circles__second(
+                                    r='45' 
+                                    cx='50%' 
+                                    cy='50%' 
+                                    transform='rotate(-90 55 55)'
+                                )
+                        
+                        
+                        .blockitem
+                            .blockitem__name
+                                span Lorem Ipsum
+                            svg.circles.circles4(viewbox='0 0 110 110')
+                                circle.circles__first(r='45', cx='50%', cy='50%', fill='none')
+                                circle.circles__second(
+                                    r='45' 
+                                    cx='50%' 
+                                    cy='50%' 
+                                    transform='rotate(-90 55 55)'
+                                )
+
+
+        section.sect5
+            .wrapper
+                .sect5__content
+                    .sect5__title
+                        h2.title Our Benefits
+
+                    .sect5__blockitem
+                        .sect5__left
+                            img(src="./images/image1.png", alt="")
+                        .sect5__right
+                            .sect5__subtitle
+                                span Viewing/Downloading Transcripts
+                            .sect5__desc
+                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form
+
+                    .sect5__blockitem.sect5__blockitem_flexend
+                        .sect5__left.sect5__left_revers
+                            img(src="./images/image2.jpg", alt="")
+                        .sect5__right
+                            .sect5__subtitle
+                                span Downloading Video
+                            .sect5__desc
+                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+
+                    .sect5__blockitem
+                        .sect5__left
+                            img(src="./images/image3.png", alt="")
+                        .sect5__right
+                            .sect5__subtitle
+                                span Same Day Scheduling
+                            .sect5__desc
+                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+
+                    .sect5__blockitem.sect5__blockitem_flexend
+                        .sect5__left.sect5__left_revers
+                            img(src="./images/image4.png", alt="")
+                        .sect5__right
+                            .sect5__subtitle
+                                span Downloading Video
+                            .sect5__desc
+                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+
+
+        section.sect6
+            .wrapper
+                .sect6__content
+
+                    .sect6__title
+                        h2.title Services Providers
+
+                    .sect6__blockslider
+                        .slider-services
+                            .swiper-services
+                                .swiper-wrapper
+
+                                    .swiper-slide
+                                        .slider-services__content
+
+                                            .slider-services__top
+
+                                                .slider-services__left
+                                                    .slider-services__bloclfoto
+                                                        img(src="./images/slide1.png", alt="")
+
+                                                .slider-services__right
+                                                    .slider-services__title
+                                                        span Noah Ferguson
+                                                    .slider-services__desc
+                                                        p Transcription, Videotaping, Realtime
+                                                    
+                                            .slider-services__bottom
+                                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                    
+                                    .swiper-slide
+                                        .slider-services__content
+
+                                            .slider-services__top
+
+                                                .slider-services__left
+                                                    .slider-services__bloclfoto
+                                                        img(src="./images/slide2.png", alt="")
+
+                                                .slider-services__right
+                                                    .slider-services__title
+                                                        span Jack Gibson
+                                                    .slider-services__desc
+                                                        p Video Strateging, Interpreting, Rough Draft
+                                                    
+                                            .slider-services__bottom
+                                                p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even.
+                                    
+                        .swiper-services-button-prev     
+                        .swiper-services-button-next
+                        
+
+        section.sect7
+            .wrapper
+                .sect7__content
+
+                    .sect7__title
+                        h2.title Testimonials
+
+                    .sect7__blockslider
+                        .slider-testimonials
+                            .swiper-testimonials
+                                .swiper-wrapper
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                                    .swiper-slide
+                                        .slider-testimonials__title 
+                                            span Erik Scott
+                                        .slider-testimonials__subtitle
+                                            span Company Name, Position
+                                        .slider-testimonials__desc
+                                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.
+
+                        .swiper-testimonials-button-prev     
+                        .swiper-testimonials-button-next
+                        .swiper-pagination
+
+
+        include ../common/footer.pug

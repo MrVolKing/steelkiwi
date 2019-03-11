@@ -1,0 +1,13 @@
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icn 6">
+<g id="3">
+<rect id="Rectangle 6" x="1" y="1" width="58" height="43" rx="3" stroke="#030303" stroke-width="2"/>
+<rect id="Rectangle 7" x="8.5" y="56.5" width="43" height="3.5" rx="1" stroke="#030303" stroke-width="2"/>
+<path id="Path 6" d="M22.6099 43.938C22.6099 43.938 21.8262 54.2776 15 56.2317" stroke="#030303"/>
+<path id="Path 6_2" d="M37.6494 43.938C37.6494 43.938 38.1738 54.3655 45 56.3196" stroke="#030303"/>
+<path id="Line" d="M1.125 35.625H59.625" stroke="#030303" stroke-linecap="square"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M31 28.5C35.6944 28.5 39.5 24.6944 39.5 20C39.5 15.3056 35.6944 11.5 31 11.5C26.3056 11.5 22.5 15.3056 22.5 20C22.5 24.6944 26.3056 28.5 31 28.5Z" fill="white"/>
+<path id="Triangle" fill-rule="evenodd" clip-rule="evenodd" d="M34.3056 20.1716L29.875 23.0184V17.3247L34.3056 20.1716Z" stroke="#030303" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

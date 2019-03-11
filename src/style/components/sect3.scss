@@ -1,0 +1,112 @@
+.sect3{
+    background-color: #4F5D75;
+    padding: rem(130) 0 rem(72) 0;
+
+    &__title{
+        margin-bottom: rem(68.5);
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: space-between;
+        height: rem(20);
+        margin-bottom: rem(87.5);
+        div{
+            width: rem(2);
+            height: 100%;
+            background-color: #2D3142;
+        }
+    }
+
+    .btn_switching{
+        border: none;
+        height: 100%;
+        background: transparent;
+        outline: none;
+        font-weight: 600;
+        line-height: rem(16);
+        font-size: rem(14);
+        letter-spacing: rem(2);
+        text-transform: uppercase;
+        color: #2D3142;
+        cursor: pointer;
+        &:hover{
+            color: $white;
+        }
+    }
+
+    .btn_active{
+        color: $white;
+    }
+
+    .blockitem{
+        display: none;
+
+        &__bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 0 0 rem(34);
+        }
+
+        &__item{
+            width: 26%;
+            display: flex;
+            align-items: center;
+            margin-bottom: rem(70);
+            img{
+                margin-right: rem(35);
+            }
+            span{
+                font-weight: 400;
+                line-height: rem(24);
+                font-size: rem(20);
+                letter-spacing: rem(1);
+                color: $white;
+            }
+        }
+
+        &__icn1{
+            width: rem(60);
+            height: rem(61);
+        }
+
+        &__icn2{
+            width: rem(44);
+            height: rem(60);
+            margin-left: rem(16);
+        }
+
+        &__icn3{
+            width: rem(60);
+            height: rem(61);
+        }
+
+        &__icn4{
+            width: rem(45);
+            height: rem(60);
+            margin-left: rem(16);
+        }
+
+        &__icn5{
+            width: rem(60);
+            height: rem(50);
+        }
+
+        &__icn6{
+            width: rem(60);
+            height: rem(50);
+        }
+    }
+
+    .blockitem_active{
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:769px){
+    .sect3{
+        
+    }
+}

@@ -1,0 +1,116 @@
+.sect7{
+    padding: rem(110) 0 rem(129) 0;
+
+    &__title{
+        margin-bottom: rem(48);
+    }
+
+    &__blockslider{
+        padding: 0 rem(210);
+        position: relative;
+    }
+
+    .slider-testimonials{
+        overflow: hidden;
+        padding-bottom: rem(73);
+
+        &__title{
+            text-align: center;
+            margin-bottom: rem(13);
+            span{
+                font-weight: 400;
+                line-height: rem(24);
+                font-size: rem(20);
+                text-align: center;
+                letter-spacing: rem(1);
+                color: #171717;
+            }
+        }
+
+        &__subtitle{
+            text-align: center;
+            margin-bottom: rem(28);
+            span{
+                font-weight: 600;
+                line-height: rem(26);
+                font-size: rem(12);
+                text-align: center;
+                letter-spacing: rem(2);
+                text-transform: uppercase;
+                color: #4F5D75;
+            }
+        }
+
+        &__desc{
+            text-align: center;
+            p{
+                font-weight: normal;
+                line-height: rem(26);
+                font-size: rem(16);
+                text-align: center;
+                letter-spacing: rem(0.3);
+                color: #171717;
+            }
+        }
+
+    }
+
+    .swiper-testimonials-button-prev, .swiper-testimonials-button-next{
+        background-size: cover;
+        outline: none;
+        width: rem(50);
+        height: rem(50);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .swiper-testimonials-button-prev{
+        background-image: url(../images/arrowleft_g.png);
+        left: 0;
+        
+    }
+
+    .swiper-testimonials-button-next{
+        background-image: url(../images/arrowright_g.png);
+        right: 0;
+    }
+
+    .swiper-pagination{
+        left: 0;
+        bottom: 0;
+        .swiper-pagination-bullet{
+            margin-right: rem(30);
+            width: rem(10);
+            height: rem(10);
+            border-radius: 50% !important;
+            background: transparent;
+            border: rem(1) solid #D8D8D8;
+            opacity: 1;
+            outline: none;
+        }
+        .swiper-pagination-bullet-active{
+            background-color: $brand_color;
+            border: none;
+        }
+    }
+    
+
+}
+
+
+@media screen and (max-width:769px) {
+    .sect7{
+        padding-bottom: 40px;
+
+        &__blockslider{
+            padding: 0;
+        }
+
+        .swiper-testimonials-button-prev, .swiper-testimonials-button-next{
+            display: none;
+        }
+        
+    }
+}

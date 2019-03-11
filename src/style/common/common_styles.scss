@@ -1,0 +1,60 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    
+    article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+    }
+    
+    textarea {
+        resize: vertical;
+      }
+    
+    
+    
+    
+    
+    
+    
+    // my style
+    
+    * {
+        transition:all .2s ease-in-out
+    }
+    
+    html{
+        font-size: 0.84vw;
+    }
+    
+    @media screen and (max-width:769px){
+        html{
+            font-size: 16px;
+        }
+    }
+    
+    .content{
+        overflow: hidden;
+    }
+    
+    body{
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        color: $maintext;
+        font-weight: 400;
+    }
+    
+    a{
+        cursor: pointer !important;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline !important;
+        }
+    }
