@@ -68,6 +68,12 @@
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
+        &:hover{
+            transform: translateY(-50%) scale(1.2);
+        }
+        &:active{
+            transform: translateY(-50%) scale(1);
+        }
     }
 
     .swiper-services-button-prev{

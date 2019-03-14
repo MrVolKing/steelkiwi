@@ -63,6 +63,12 @@
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
+        &:hover{
+            transform: translateY(-50%) scale(1.2);
+        }
+        &:active{
+            transform: translateY(-50%) scale(1);
+        }
     }
 
     .swiper-testimonials-button-prev{
@@ -88,6 +94,9 @@
             border: rem(1) solid #D8D8D8;
             opacity: 1;
             outline: none;
+            &:hover{
+                background-color: rgba(250, 63, 64, .6);
+            }
         }
 
         .swiper-pagination-bullet-active{
